@@ -1,0 +1,21 @@
+:root {
+  --bg: #faf8f4;
+  --panel: #ffffff;
+  --divider: #e4e0d8;
+  --border: #d3cdc0;
+  --ink: #1c1b19;
+  --muted: #8c8778;
+  --faint: #b3ae9e;
+  --ongoing: #3b63f5;
+  --ongoing-dim: #e8ecfe;
+  --finished: #a7a296;
+  --finished-dim: #ece9e2;
+
+  --sidebar-width: 260px;
+  --title-height: 76px;
+  --ruler-height: 64px;
+  --scrollbar-height: 12px;
+  --lane-height: 150px;
+  --bottom-control-clearance: 76px;
+  --control-shadow: 0 8px 24px rgb(42 39 32 / 9%);
+}

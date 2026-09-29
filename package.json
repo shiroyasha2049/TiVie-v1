@@ -1,0 +1,11 @@
+{
+  "name": "tivie-tv-timeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check src/app.js && node --check src/api/tmdb.js && node --check src/data/normalize-tmdb.js"
+  }
+}

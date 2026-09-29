@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Compare TV-show lifespans and season ratings on one shared timeline."
+    />
+    <title>Tivie — TV Show Lifespan Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/tokens.css" />
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <main id="app" aria-live="polite"></main>
+
+    <script defer src="src/data/fixtures.js"></script>
+    <script defer src="src/data/normalize-tmdb.js"></script>
+    <script defer src="src/api/tmdb.js"></script>
+    <script defer src="src/lib/timeline.js"></script>
+    <script defer src="src/components/sidebar.js"></script>
+    <script defer src="src/components/timeline.js"></script>
+    <script defer src="src/components/search-drawer.js"></script>
+    <script defer src="src/app.js"></script>
+  </body>
+</html>
